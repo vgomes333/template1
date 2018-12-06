@@ -1,0 +1,40 @@
+.sidebar {
+    background-color: #435CC8;
+    width: 15%;
+    min-height: 100vh;
+    color: #8FA1F0;
+    font-weight: 700;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+
+    &-logo {
+        text-align: center;
+        padding: 10px 0;
+    }
+
+    &-list {
+        display: flex;
+        flex-direction: column;
+        text-align: left;
+        
+        &-items {
+            font-weight: 100;
+            cursor: pointer;
+            font-size: 14px;
+            padding: 18px 0;
+            padding-left: 0.6cm;
+
+            &:hover {
+                background-color: #6175D0;
+                color: #fff;
+                transition: .2s;
+            }
+        }
+
+        &-icon {
+            font-size: 18px;
+            margin-right: 15px;
+        }
+    }
+}
